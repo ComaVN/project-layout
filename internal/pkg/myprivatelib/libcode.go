@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func Libfunc() {
-	fmt.Println("Hello world, from myprivatelib")
+func Libfunc(message string) {
+	fmt.Printf("Hello world, from myprivatelib: '%s'\n", message)
 }

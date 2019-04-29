@@ -10,5 +10,5 @@ import (
 func main() {
 	fmt.Println("Hello World, from myapp main")
 	myapp.Appfunc()
-	myprivatelib.Libfunc()
+	myprivatelib.Libfunc("myapp main")
 }
