@@ -2,7 +2,7 @@ package myapp
 
 import (
 	"fmt"
-	"pkg/myprivatelib"
+	"project-layout/internal/pkg/myprivatelib"
 )
 
 func Appfunc() {

@@ -1,9 +1,9 @@
 FROM golang:alpine
 
-WORKDIR /go/src/myproject
+WORKDIR /go/src/project-layout
 
 COPY cmd cmd
-COPY internal /go/src/
+COPY internal internal
 RUN ls -la /go/src
 RUN go build -o myapp ./cmd/myapp/main.go
 RUN ./myapp

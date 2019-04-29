@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"app/myapp"
-	"pkg/myprivatelib"
+	"project-layout/internal/app/myapp"
+	"project-layout/internal/pkg/myprivatelib"
 )
 
 func main() {
